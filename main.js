@@ -3,7 +3,6 @@ const { exec } = require("child_process");
 const http = require("http");
 
 const SERVER_URL = "http://localhost:3000";
-let mainWindow;
 
 const createWindow = () => {
   const win = new BrowserWindow({
